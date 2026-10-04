@@ -1,28 +1,57 @@
+* {
+  box-sizing: border-box;
+
+}
+
 body {
   max-width: 600px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .one {
-  background: pink;
-  border: 3px solid blue;
-  /* CHANGE ME */
-  padding: 32px;
   margin: 12px;
+  margin-left: 100px;
+  border: 3px solid;
+  padding: 10px;
+  background-color: rgb(175, 89, 123);
+  border-color: blue;
+  width: 800px;
+  height: 50px;
+  text-align: left;
+  align-content: center;
+  
+  
 }
 
 .two {
-  background: lightblue;
-  border: 3px solid purple;
-  /* CHANGE ME */
-  margin-bottom: 48px;
+  margin: 0 auto;
+  margin-left: 90px;
+  border: 3px solid;
+  padding: 1px;
+  background-color: aquamarine;
+  border-color: purple;
+  width: 850px;
+  height: 25px;
+  text-align: left;
 }
 
 .three {
-  background: peachpuff;
-  border: 3px solid brown;
-  width: 200px;
-  /* CHANGE ME */
+  margin: 100px;
+  border: 3px solid;
   padding: 32px;
-  margin-left: 55%;
+  background-color: orange;
+  border-color: red;
+  width: 185px;
+  height: 50px;
+  text-align: left;
+  margin-left: 650px;
+  align-content: center;
+}
+
+.one .three {
+  padding: 32px;
+}
+
+.two .three {
+  margin: 48px;
 }
