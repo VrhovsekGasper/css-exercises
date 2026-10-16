@@ -1,4 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  background: gray;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: white;
+  margin: 16px auto;
+  padding: 7px;
+}
+
+.title {
+  font-size: 16px;
+  background-color: rgb(57, 110, 214);
+  padding: 8px;
+}
+
+.content {
+  font-size: 16px;
+  background-color: rgb(57, 110, 214);
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  font-size: 16px;
+  background-color: rgb(57, 110, 214);
+  padding: 8px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+button {
+  background: white;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-right: 21px;
+  padding-left: 21px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
   background: gray;
   font-family: sans-serif;
 }
@@ -42,4 +117,5 @@ button {
   display: block;
   margin: 0 auto;
   
-}
+} */
+
